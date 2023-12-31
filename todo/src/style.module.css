@@ -34,7 +34,23 @@ body{
     color: black;
     margin-top: 20px;
 }
+.todoItem{
+    margin: auto;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+.todoname{
 
+}
+.deletebutton{
+    border: none;
+    font-size: 15px;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+}
 
 
 /* Height should be in pixels:means the measure for the vertical element
