@@ -1,0 +1,44 @@
+/* the body styling margin removes spaces all around */
+body{ 
+    margin: 0; 
+    font-family: sans-serif;
+}
+.header{
+    background-color: aqua;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    padding: 20px; 
+    font-size: 35px;
+    text-align: center;
+}
+.todoform{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.todoinput{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px; 
+}
+.todobutton{
+    height: 30px;
+    width: 35%;
+    margin-left: 400px;
+    border: none;
+    background-color: darkcyan;
+    font-size: 1.2em;
+    color: black;
+    margin-top: 20px;
+}
+
+
+
+/* Height should be in pixels:means the measure for the vertical element
+margin is the distance from the screen 
+padding is the distance all around 
+border is defined forst before specifying 
+width specifies if you want the element across the whole screen(L-R)*/
