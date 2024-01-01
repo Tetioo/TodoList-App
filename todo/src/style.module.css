@@ -34,7 +34,7 @@ body{
     color: black;
     margin-top: 20px;
 }
-.todoItem{
+.todoitem{
     margin: auto;
     border: 2px solid whitesmoke;
     padding: 20px;
@@ -50,6 +50,7 @@ body{
     height: 30px;
     width: 100px;
     border-radius: 2px;
+    background-color: darkcyan;
 }
 
 
