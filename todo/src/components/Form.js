@@ -13,7 +13,7 @@ const Form = ({ setTodoList }) => { // Remove unnecessary props
         event.preventDefault();
         setTodoList((prevTodoList) => [...prevTodoList, {name: todo, id: shortid.generate() }]); // Append todo to existing todolist
         setTodo(""); // Clear input field after submission
-        //console.log(todolist)
+        // console.log(todolist)
       };
     return (
         <div className={styles.todoform}>

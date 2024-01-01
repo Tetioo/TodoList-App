@@ -17,7 +17,7 @@ function App() { //to be accessed by any file
       setTodoList={setTodoList}>
       </Form>
       {/* { <Todo></Todo> }  */}
-      { <TodoList todolist={todolist}></TodoList> }
+      { <TodoList setTodoList={setTodoList} todolist={todolist}></TodoList> }
     </div>
   );
 }
